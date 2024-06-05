@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    color: #fff;
+    font-size: 62.5%;
+  }
+  
+  body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #a214ea, #fc5a23 );
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p,
+  button {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  button {
+    background-color: #fff;
+    padding: 0.6rem 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10rem;
+    margin-right: 2.12rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    box-shadow: inset 1rem 1rem 2rem 0.2rem #16c416;
+  
+    &:hover {
+      box-shadow: inset 0 0 0 0.2rem #16c416;
+      background-color: wheat;
+      color: #470505;
+    }
+  }
+  section {
+    width: 30rem;
+    height: 48rem;
+    background-color: rgba(174, 245, 8, 0.952);
+    text-align: center;
+    padding: 2.4rem;
+    border-radius: 1rem;
+  }
+
+  #increment {
+    color: #700303;
+    font-size: 9.8rem;
+  }
+
+  .display p {
+    font-size: 1.8rem;
+    margin-top: 0.6rem;
+    color: #700303;
+  }
+  
+  h1{
+    font-size: 2rem;
+    color: #470505;
+  }
